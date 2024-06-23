@@ -29,8 +29,9 @@ public class MapSample {
 			System.out.println("key1は存在しません");
 		}
 
+		//拡張for文を利用して全て情報を取得する
 		for (Map.Entry<String, String> entry : map.entrySet()) {
-			System.out.println(entry.getKey() +" : "+ entry.getValue());
+			System.out.println(entry.getKey() + " : " + entry.getValue());
 		}
 
 	}
